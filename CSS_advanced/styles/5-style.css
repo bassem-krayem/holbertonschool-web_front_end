@@ -1,0 +1,58 @@
+/* Ensure effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* Set font size to 62.5% of its normal size */
+}
+
+/* Define custom properties in the root element */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+
+    /* Custom font-family properties */
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Custom font-size properties */
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+}
+
+/* Set the font-family and font-size for the body */
+body {
+    font-family: var(--font-family-base);
+    color: var(--text-color);
+    font-size: var(--font-size-medium);
+}
+
+/* Set the foreground color for all anchor elements */
+a {
+    color: var(--text-color);
+}
+
+/* Hide all elements with the class visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* Set the foreground color for all elements with the class card-category */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Set the foreground color for all elements with the class section-tagline */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Set the font-family for all heading tags (h1 to h6) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
