@@ -74,9 +74,10 @@ Go to https://dev-tools.hbtn.info/
 Remove the div of the “cake” box in the section Portfolio
 Take a screenshot of it
 
-6. Where is it coming from?
-   mandatory
-   Go to https://dev-tools.hbtn.info/
+### 6. Where is it coming from?
+
+mandatory
+Go to https://dev-tools.hbtn.info/
 
 - On the right panel, click on the Computed tab
 - Then, select the h2 with the text ABOUT
