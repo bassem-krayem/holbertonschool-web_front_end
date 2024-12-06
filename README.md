@@ -17,3 +17,7 @@ here we will learn how to use and benefet from the dev tools in any navigator in
 ## sass_scss:
 
 here we will learn how to make css easier to write by using the sass
+
+## flexbox
+
+here we will learn how to use the flexbox in css
