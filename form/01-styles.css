@@ -798,7 +798,6 @@ ul.row {
 .tag-list li:last-child::after {
   content: "";
 }
-
 /*** FORM ***/
 /* Comment section
     ============================= */
@@ -811,7 +810,7 @@ ul.row {
   font-variant: small-caps;
 }
 /* Basic form
-    ============================= */
+        ============================= */
 form {
   display: flex;
   flex-direction: column;
