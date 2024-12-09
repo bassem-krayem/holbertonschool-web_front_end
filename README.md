@@ -21,3 +21,7 @@ here we will learn how to make css easier to write by using the sass
 ## flexbox
 
 here we will learn how to use the flexbox in css
+
+## form:
+
+In this project we will learn how to build html5 forms and more related to that
