@@ -1,6 +1,6 @@
 /* we will use the loop each feature here */
-@import "11-photos";
-@each $name in $list-names {
+@use "11-photos" as photos;
+@each $name in photos.$photo-names {
   .photo-#{$name} {
     background: image-url("photos/#{$name}.jpg") no-repeat;
   }
